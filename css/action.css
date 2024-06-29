@@ -1,0 +1,239 @@
+h1,h2,h3,h4,h5 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p, .after-h-text {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* nav start */
+
+.myNavbar {
+  background-color: #8bb580 !important;
+}
+
+.navlink-gp {
+  padding-left: 53.54vw;
+}
+
+#nav-img {
+  width: 2.54vw;
+}
+
+.navbar-logo {
+  padding-left: 4.25vw;
+}
+
+/* nav end */
+
+/* hero section start */
+
+#nav-myGoals{
+  margin-top: 50px;
+}
+
+.hero-section {
+    background-image: url(../images/ling-xiang.jpeg);
+
+     background-size: cover;
+
+   height: 100vh;
+    color: #ffffff; 
+    
+  }
+
+ .hero-txt {
+  padding-top: 220px;
+ }
+
+
+  .bd-contain {
+    padding: 0 40px;
+  }
+
+
+ /* special buttons */
+
+.u {
+
+  background-image: url(../images/magic.png);
+  background-size: cover;
+}
+
+.s {
+ 
+  background-image: url(../images/flower-3.png);
+  background-size: cover;
+}
+
+.e {
+
+  background-image: url(../images/flower-4.png);
+  background-size: cover;
+}
+
+.set {
+  margin: 5% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+
+  margin: 10px;
+  background-color: white;
+}
+
+.modal-dialog {
+  margin-top: 300px;
+
+}
+
+/* modal end */
+
+/* carousel start */
+
+
+.dark-outline {
+  font-weight: 1000;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
+}
+
+
+.carousel-edit{
+width: 1178.670px;
+height: 710.883px;
+}
+/*  */
+/* checklist start */
+
+.SavEdit {
+  width: 60px;
+}
+
+
+ 
+.checklist-p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.checklist-top-text {
+  margin: 50px auto 50px;
+}
+
+.check-img {
+  width: 50px;
+}
+
+
+  .after-hero {
+    width: 1178px;
+    height: 177px;
+    background-color: aliceblue;
+    padding: 0;
+    
+  }
+
+
+
+/* modals start */
+
+/* Styles for Sustainable Tips Section */
+#sustainable-tips-section {
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+#sustainable-tips-section h2 {
+  font-size: 28px;
+  color: #333;
+}
+
+#sustainable-tips-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#sustainable-tips-list li {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#sustainable-tips-list li:hover {
+  background-color: #f9f9f9;
+}
+
+/* Styles for Sustainable Tips Pop-up Modal */
+#sustainable-tip-modal {
+  display: none;
+
+}
+
+
+.modal-content {
+  /* position: absolute; */
+
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+  
+}
+
+.close-button {
+
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #888;
+}
+
+/* modals end */
+
+
+/* footer start */
+.footer-img {
+  width: 30px;
+}
+
+.blockcode {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  background-color: #9E9FA5;
+
+}

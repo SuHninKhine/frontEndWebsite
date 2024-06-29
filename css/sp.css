@@ -1,0 +1,183 @@
+h1,h2,h3,h4,h5 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p, .after-h-text ,.Starts  {
+  font-family: 'Inter', sans-serif;
+}
+
+#nav-action-SP , #nav-statistics {
+  background-color: #F7F1E5;
+}
+
+.smallImg {
+  width: 40px;
+}
+
+/* nav start */
+
+
+
+.myNavbar {
+  background-color: #8bb580 !important;
+}
+
+.navlink-gp {
+  padding-left: 53.54vw;
+}
+
+#nav-img {
+  width: 2.54vw;
+}
+
+.navbar-logo {
+  padding-left: 4.25vw;
+}
+
+/* nav end */
+
+/* hero start */
+
+
+.homepage-button {
+  color: #000000;
+  border-color: #000000;
+  border-radius: 3px;
+
+  font-style: normal;
+  padding-right: 4.25vw; 
+  position: relative;
+}
+
+.homepage-button:hover {
+
+  text-decoration: underline;
+  transition: none 0.02125s ease-in-out;
+  border: 0.085vw solid black; 
+}
+
+.homepage-button::after {
+  border-top: 0.17vw solid black; 
+  border-right: 0.17vw solid black;
+  content: '';
+  display: block;
+  height: 0.68vw; 
+  position: absolute;
+  transform: rotate(45deg) translateY(-50%);
+  width: 0.68vw; 
+  transition: all 0.04275s cubic-bezier(0.545, 0.03, 0.395, 0.965); 
+  right: 1.70vw;
+  top: calc(50% - 0.085vw); 
+}
+
+.myHero {
+
+  padding-left: 2.55vw;
+  margin-top: 10px;
+}
+
+/* hero end */
+
+/* goals start */
+
+.bd-contain, .sp-contain {
+  padding: 0 3.4vw; 
+}
+
+.after-hero-heading {
+  margin: 0.85vw auto 2.55vw; 
+}
+
+
+/* goals end */
+
+
+/* cards start */
+
+
+
+
+.card-1-text,
+.card-2-text {
+  margin-left: 11.14vw;
+  margin-top: 2.78vw;
+}
+
+
+/* cards end */
+
+
+.hr-top {
+  background-color: black;
+  content: "";
+  display: block;
+  height: 0.3vw; 
+  width: 4.25vw; 
+  margin-bottom: 0.595vw; 
+  margin-top: 10px;
+}
+
+.whats-new {
+  background-color: #b9eddd;
+  height: 17vw; 
+  padding: 0;
+}
+
+#whats {
+  padding: 0;
+}
+
+
+
+/* what's new end */
+
+/* topic start */
+
+.topic-text-contain {
+  margin: auto 33.69vw auto 23.81vw; 
+}
+
+.topic-card-contain {
+  margin: auto 23.81vw auto 23.81vw; 
+}
+
+/* topic end */
+
+/* tables start */
+
+.table {
+  font-size: 1.36vw; 
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.table tr:not(:last-child) {
+  border-bottom: 0.17vw solid #ccc; 
+
+}
+
+#nav-statistics {
+  padding-bottom: 20px;
+}
+
+/* tables end */
+
+/* footer start */
+.footer-img {
+  width: 30px;
+}
+
+.blockcode {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  background-color: #9E9FA5;
+
+}

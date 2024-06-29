@@ -1,0 +1,176 @@
+body {
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p, .after-h-text {
+  font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+/* nav start */
+
+.myNavbar {
+    background-color: #8bb580 !important;
+  }
+  
+  .navlink-gp {
+    padding-left: 53.54vw;
+  }
+  
+  #nav-img {
+    width: 2.54vw;
+  }
+  
+  .navbar-logo {
+    padding-left: 4.25vw;
+  }
+  
+  /* nav end */
+  
+
+/* hero start */
+
+.myName {
+  font-family: 'Niconne', cursive;
+  color: #ed1642;
+}
+
+.hero-h1 {
+    padding-top: 6.12vw;
+    padding-bottom: 2.12vw;
+    text-align: center;
+}
+
+.hero-p {
+    padding-bottom: 1.36vw;
+}
+
+
+.hero-txt {
+    text-align: left;
+
+    padding-left: 3.4vw;
+
+}
+
+/* after hero start */
+
+.after-hero-h5 {
+    padding-top: 2.54vw;
+    padding-bottom: 0.85vw;
+    text-decoration: underline;
+}
+
+.after-hero-enclose {
+
+    background-color: #E3F2C1;
+    margin: 2.54vw 0 5.08vw;
+    padding-bottom: 2.54vw;
+}
+
+/* after hero end */
+
+.text-on-left {
+  text-align: left;
+}
+
+/* topics start */
+
+.whereVol {
+  text-decoration: underline;
+}
+
+.sideThree {
+    margin: auto 30px 30px auto;
+}
+
+.awareness-p {
+
+    margin-left: 0.85vw;
+}
+
+
+.threeSec {
+    width: 98.98vw;
+    padding-top: 1.70vw;
+}
+
+#threeSec2 {
+    height: 378px;
+}
+
+.bottom-card {
+    padding-top: 7.65vw;
+}
+
+.clean-up-enclose {
+  margin-top: 150px;
+}
+
+.text-on-left {
+  margin-left: 40px;
+}
+
+.threeSecMid {
+  margin-top: 70px;
+
+}
+/* 3 section end */
+
+
+
+/* form start */
+
+
+
+
+  .invalid-feedback {
+    display: none;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+
+  input[type="checkbox"].form-check-input {
+    border: 2px solid #000;
+    padding: 5px;
+  }
+
+#nav-volunteer {
+    background-color: #F7F1E5;
+  }
+
+
+/* form end */
+
+
+/* footer start */
+.footer-img {
+  width: 30px;
+
+}
+
+.blockcode {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  background-color: #9E9FA5;
+
+}

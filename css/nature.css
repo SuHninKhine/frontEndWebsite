@@ -1,0 +1,153 @@
+body {
+  text-align: center;
+
+}
+
+.greenAction {
+  font-family: 'Noto Serif SC', serif;
+ 
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p, .after-h-text ,.Starts  {
+  font-family: 'Inter', sans-serif;
+}
+
+
+/* nav start */
+
+.myNavbar {
+  background-color: #8bb580 !important;
+}
+
+.navlink-gp {
+  padding-left: 53.54vw;
+}
+
+#nav-img {
+  width: 2.54vw;
+}
+
+.navbar-logo {
+  padding-left: 4.25vw;
+}
+
+/* nav end */
+
+.bd-contain {
+  padding: 0 3.4vw;
+}
+
+/* hero start */
+.hero-section {
+  background-image: url(../images/erik-van-dijk-7aEhliQraPI-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+.hero-section h4 {
+  padding-top: 4.25vw;
+  font-size: 2.54vw;
+}
+
+.hero-section h1 {
+  font-size: 8.54vw;
+  font-weight: bold;
+  padding: 3.4vw 0 0.85vw;
+}
+
+
+
+.hero-section .btn:hover {
+  background-color: #7AA874;
+  border-color: black;
+}
+
+.homepage-button {
+  background-color: white;
+  border-color: black;
+  border-radius: 3px;
+  font-style: normal;
+  padding-right: 4.25vw;
+  position: relative;
+}
+
+.homepage-button:hover {
+  text-decoration: underline;
+  transition: none 0.02125s ease-in-out;
+  background-color: #7AA874;
+  border-color: black;
+}
+
+.homepage-button::after {
+  border-top: 0.17vw solid black;
+  border-right: 0.17vw solid black;
+  content: '';
+  display: block;
+  height: 0.68vw;
+  position: absolute;
+  transform: rotate(45deg) translateY(-50%);
+  width: 0.68vw;
+  transition: all 0.04275s cubic-bezier(0.545, 0.03, 0.395, 0.965);
+  right: 1.70vw;
+  top: calc(50% - 0.085vw);
+}
+
+.contain-after-hero {
+
+  margin-top: 4.25vw;
+}
+
+/* hero end */
+
+/* side by side section start */
+
+#b1-text-h3 {
+  font-size: 2.97vw;
+  line-height: 1.3;
+}
+
+.b1-text-p {
+  line-height: 1.7;
+}
+
+.heart-img {
+  width: 46.43vw;
+  height: 40.75vw;
+}
+
+.myCard {
+  padding-top: 8.47vw;
+}
+
+.text-on-left {
+  margin-left: 4.25vw;
+  margin-top: 12.75vw;
+
+}
+
+.text-on-right {
+  padding-left: 4.25vw;
+  padding-top: 12.75vw;
+}
+
+/* side by side section end */
+
+/* footer start */
+.footer-img {
+  width: 30px;
+}
+
+.blockcode {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  background-color: #9E9FA5;
+
+}
